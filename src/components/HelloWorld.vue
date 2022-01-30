@@ -16,6 +16,16 @@
         class="portrait"
       />
     </div>
+
+    <div class="imagez">
+      <Portrait
+        image="neptunus.jpg"
+        text="Varlesen från Neptunus"
+        class="portrait"
+      />
+
+      <Portrait image="terras_bane.jpg" text="Terras Bane" class="portrait" />
+    </div>
   </div>
 </template>
 
@@ -48,12 +58,23 @@ img {
   // max-width: 400px;
   height: auto;
 }
+
+.hello {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .img-container {
   // max-width: 400px;
   position: relative;
   // width: 50%;
 }
 .imagez {
+  max-width: 1200px;
+  margin-left: 30px;
+  margin-right: 30px;
   display: flex;
   flex-direction: row;
   justify-content: center;

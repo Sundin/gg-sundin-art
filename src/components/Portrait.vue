@@ -64,6 +64,6 @@ export default class Portrait extends Vue {
 .text {
   color: white;
   font-size: 16px;
-  padding: 16px 32px;
+  padding: 16px 16px;
 }
 </style>
