@@ -26,6 +26,14 @@
 
       <Portrait image="terras_bane.jpg" text="Terras Bane" class="portrait" />
     </div>
+
+    <div class="imagez">
+      <Portrait image="revelation.jpg" text="The Revelation" class="portrait" />
+
+      <Portrait image="the_beholder.jpg" text="The Beholder" class="portrait" />
+
+      <Portrait image="gotcha.jpg" text="Gotcha!" class="portrait" />
+    </div>
     <hr />
     <p>© G.G. Sundin 2022</p>
   </div>
