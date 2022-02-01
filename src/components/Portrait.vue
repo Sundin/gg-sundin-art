@@ -51,6 +51,7 @@ export default class Portrait extends Vue {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+  pointer-events: none;
 }
 
 .img-container:hover .image {
@@ -65,5 +66,6 @@ export default class Portrait extends Vue {
   color: white;
   font-size: 16px;
   padding: 16px 16px;
+  pointer-events: none;
 }
 </style>
