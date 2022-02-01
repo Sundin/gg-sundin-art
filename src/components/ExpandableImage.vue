@@ -62,21 +62,7 @@ import { Options, Vue } from "vue-class-component";
 
     onExpandedImageClick(e: any) {
       e.stopPropagation();
-      const image = this.cloned.querySelector("img");
-      const imagePosition = this.getRenderedSize(
-        image.width,
-        image.height,
-        image.naturalWidth,
-        image.naturalHeight
-      );
-      if (
-        e.clientX < imagePosition.left ||
-        e.clientX > imagePosition.right ||
-        e.clientY < imagePosition.top ||
-        e.clientY > imagePosition.bottom
-      ) {
-        this.expanded = false;
-      }
+      this.expanded = false;
     },
 
     getRenderedSize(
