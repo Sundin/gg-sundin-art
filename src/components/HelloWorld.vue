@@ -26,6 +26,8 @@
 
       <Portrait image="terras_bane.jpg" text="Terras Bane" class="portrait" />
     </div>
+    <hr />
+    <p>© G.G. Sundin 2022</p>
   </div>
 </template>
 

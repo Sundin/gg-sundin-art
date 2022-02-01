@@ -1,5 +1,6 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1>The Fantastic Art of G.G. Sundin</h1>
+    <p>All illustrations made by G.G. Sundin 2021-2022</p>
   </div>
 </template>
